@@ -6,6 +6,9 @@ export interface User {
   nivel: string | null;
   departamento: string | null;
   created_at: string;
+  // Additional properties for admin interface
+  name?: string;
+  level?: string;
 }
 
 export interface Match {

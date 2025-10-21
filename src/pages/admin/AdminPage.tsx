@@ -16,14 +16,17 @@ import {
 import Card from '../../components/ui/Card'
 import Button from '../../components/ui/Button'
 import Input from '../../components/ui/Input'
-import Select from '../../components/ui/Select'
-import { LoginForm, User, Match, TournamentInfo } from '../../types'
+import { LoginForm, User, TournamentInfo } from '../../types'
 
 // Mock data
 const mockUsers: User[] = [
   {
     id: '1',
     email: 'john@example.com',
+    nombre: 'John',
+    apellido: 'Doe',
+    nivel: 'Intermediate',
+    departamento: 'IT',
     name: 'John Doe',
     level: 'Intermediate',
     created_at: '2024-12-01T10:00:00Z',
@@ -31,6 +34,10 @@ const mockUsers: User[] = [
   {
     id: '2',
     email: 'jane@example.com',
+    nombre: 'Jane',
+    apellido: 'Smith',
+    nivel: 'Advanced',
+    departamento: 'Marketing',
     name: 'Jane Smith',
     level: 'Advanced',
     created_at: '2024-12-01T11:00:00Z',
