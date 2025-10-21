@@ -81,7 +81,7 @@ export default function HomePage() {
       >
         <div className="relative h-96 md:h-[500px]">
           <img
-            src="/torneo-padel-FEB/images/padel.jpg"
+            src="./images/padel.jpg"
             alt="Padel court"
             className="w-full h-full object-cover"
           />

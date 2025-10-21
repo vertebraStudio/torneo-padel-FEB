@@ -25,7 +25,7 @@ export default function Navbar() {
             className="flex items-center space-x-2"
           >
             <img 
-              src="/torneo-padel-FEB/images/Feb-logo.svg" 
+              src="./images/Feb-logo.svg" 
               alt="FEB Logo" 
               className="w-10 h-10"
             />
